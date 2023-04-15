@@ -28,7 +28,7 @@ const Earthquakehome = ({ navigation }) => {
     if (state.loading) {
         return (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-                <ActivityIndicator size="large" color="#00ff00" />
+                <ActivityIndicator size="large" color="#000000" />
             </View>
 
         )

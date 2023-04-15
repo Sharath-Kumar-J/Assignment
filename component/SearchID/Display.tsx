@@ -31,8 +31,8 @@ const Displayscreen = ({ route }) => {
   
     if (state.loading) {
       return (
-        <View>
-          <ActivityIndicator size='large' colour="#fff" />
+        <View style ={{ flex: 1, alignItems: 'center', justifyContent: 'center'}} >
+          <ActivityIndicator size='large' color="#000000" />
         </View>
       )
     }
